@@ -1,14 +1,14 @@
-# jest-environment-puppeteer-jsdom
+# jest-environment-puppeteer-jsdom-jsdom
 
 [![version][version-badge]][package]
 [![MIT License][license-badge]][license]
 
-The version of [jest-environment-puppeteer](https://github.com/smooth-code/jest-puppeteer/tree/master/packages/jest-environment-puppeteer) based on js-dom to support server side rendering and visual tests.
+The version of [jest-environment-puppeteer-jsdom](https://github.com/smooth-code/jest-puppeteer/tree/master/packages/jest-environment-puppeteer-jsdom) **based on js-dom** to support server side rendering and visual tests.
 
 Run your tests using Jest & Puppeteer 🎪✨
 
 ```
-npm install jest-environment-puppeteer puppeteer
+npm install jest-environment-puppeteer-jsdom puppeteer
 ```
 
 ## Usage
@@ -17,9 +17,9 @@ Update your Jest configuration:
 
 ```json
 {
-  "globalSetup": "jest-environment-puppeteer/setup",
-  "globalTeardown": "jest-environment-puppeteer/teardown",
-  "testEnvironment": "jest-environment-puppeteer"
+  "globalSetup": "jest-environment-puppeteer-jsdom/setup",
+  "globalTeardown": "jest-environment-puppeteer-jsdom/teardown",
+  "testEnvironment": "jest-environment-puppeteer-jsdom"
 }
 ```
 
@@ -167,9 +167,6 @@ Thanks to Fumihiro Xue for his great [Jest example](https://github.com/xfumihiro
 
 MIT
 
-[build-badge]: https://img.shields.io/travis/smooth-code/jest-puppeteer.svg?style=flat-square
-[build]: https://travis-ci.org/smooth-code/jest-puppeteer
-[version-badge]: https://img.shields.io/npm/v/jest-environment-puppeteer.svg?style=flat-square
-[package]: https://www.npmjs.com/package/jest-environment-puppeteer
-[license-badge]: https://img.shields.io/npm/l/jest-environment-puppeteer.svg?style=flat-square
-[license]: https://github.com/smooth-code/jest-puppeteer/blob/master/LICENSE
+[version-badge]: https://img.shields.io/npm/v/jest-environment-puppeteer-jsdom.svg?style=flat-square
+[package]: https://www.npmjs.com/package/jest-environment-puppeteer-jsdom
+[license-badge]: https://img.shields.io/npm/l/jest-environment-puppeteer-jsdom.svg?style=flat-square
